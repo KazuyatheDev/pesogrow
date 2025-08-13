@@ -1,5 +1,5 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import { GoogleAnalytics } from '@next/third-parties/google'
+
 
 export const metadata: Metadata = {
   title: 'PesoGrow - Your Peso Growth Companion',
