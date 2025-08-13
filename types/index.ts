@@ -11,6 +11,9 @@ export interface BankData {
   isActive: boolean;
   description?: string;
   isPhilippinesLicensed?: boolean;
+  timeDepositRate?: number;
+  promoDetails?: string;
+  specialFeatures?: string[];
 }
 
 export interface CalculatorInputs {
