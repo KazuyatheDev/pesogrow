@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -73,6 +74,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
         {children}
+        <Analytics />
         <GoogleAnalytics gaId="G-XXXXXXXXXX" />
       </body>
     </html>
