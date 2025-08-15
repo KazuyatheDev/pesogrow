@@ -1,0 +1,34 @@
+
+      {/* Structured Data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "PesoGrow",
+            "description": "Compare interest rates and calculate earnings across Philippine digital banks",
+            "url": "https://pesogrow.com",
+            "applicationCategory": "FinanceApplication",
+            "operatingSystem": "Any",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "PHP"
+            },
+            "provider": {
+              "@type": "Organization",
+              "name": "PesoGrow",
+              "url": "https://pesogrow.com"
+            },
+            "audience": {
+              "@type": "Audience",
+              "geographicArea": {
+                "@type": "Country",
+                "name": "Philippines"
+              }
+            },
+            "keywords": "Philippines digital banks, interest rates, savings calculator, GCash, Maya Bank, Tonik, CIMB, SeaBank"
+          })
+        }}
+      />
