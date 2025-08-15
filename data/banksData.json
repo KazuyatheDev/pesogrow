@@ -29,6 +29,7 @@
       "isActive": true,
       "description": "Licensed digital bank with 3.5% base rate, up to 15% p.a. promo rate (capped at ₱100,000) through missions/activities. Daily interest crediting.",
       "isPhilippinesLicensed": true,
+      "timeDepositRate": 6,
       "promoDetails": "Up to 15% p.a. on first ₱100K through activities and missions",
       "specialFeatures": ["Daily interest crediting", "No maintaining balance", "Free transfers via PESONet/InstaPay"]
     },
